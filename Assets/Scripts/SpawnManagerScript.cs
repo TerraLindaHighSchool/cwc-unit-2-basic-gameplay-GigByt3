@@ -11,7 +11,7 @@ public class SpawnManagerScript : MonoBehaviour
     public float spawnInterval;
 
     // Update is called once per frame
-    void Update()
+    void Start()
     {
         InvokeRepeating("SpawnRangomAnimal", startDelay, spawnInterval);
     }
